@@ -3,7 +3,7 @@
 
 #define DEBOUCE_PERIOD      80
 #define LONGPRESSED_PERIOD  1300
-#define DOUBLECLICK_PERIOD  500
+#define DOUBLECLICK_PERIOD  350
 
 #include <Arduino.h>
 
