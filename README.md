@@ -31,3 +31,6 @@ void loop() {
   }
 }
 ```
+<p align="center">
+  <img src="Example_EasyButton.png" alt="image"/>
+</p>  
