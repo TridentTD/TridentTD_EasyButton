@@ -1,6 +1,8 @@
 #include "TridentTD_EasyButton.h"
 
-
+#ifndef PRESSED
+#define PRESSED     LOW
+#endif
 
 TridentTD_EasyButton::TridentTD_EasyButton(uint8_t button_pin)  {
   pinMode( button_pin, INPUT_PULLUP);
@@ -65,3 +67,4 @@ void TridentTD_EasyButton::update(){
       break;
   }
 }
+
